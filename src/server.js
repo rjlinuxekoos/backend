@@ -28,7 +28,7 @@ app.use((req,res, next) => {
     req.io = io;
     return next();
 }
-)
+);
 
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));//permite enviar arquivos nas comunicacoes
