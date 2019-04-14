@@ -1,3 +1,4 @@
 node_modules
 tmp/*
 !tmp/.gitkeepnode_modules
+npm-debug.log
